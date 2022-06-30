@@ -1,0 +1,128 @@
+body{
+    font-family: Verdana, Geneva ,sans-serif; 
+
+}
+.header-nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 4rem;
+    background-color: #B80000;
+}
+.logo{
+    height: 4rem;
+    
+ }
+ .title{
+     color: white;
+     margin-right: 20px;
+     font-size: large;
+     font-weight: bold;
+ }
+ .nav-line{
+     color: white;
+     width: 100%;
+     display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+ }
+ .sections-nav{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 3rem;
+    background-color: #B80000;
+    margin: 0;
+    padding: 0;
+ }
+ ul {
+    list-style-type: none;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+    
+}
+
+ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0.75rem;
+ 
+}
+li{
+    padding-top: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    padding: 10px;
+    margin-right: 95px;
+    
+  } 
+  .important-news{
+      width:90%;
+      height:345px ;
+  }
+  .main-img{
+      height: 300px;
+      width: 500px;
+      float: right;
+      margin: 25px;
+      /* margin-right: 110px; */
+      /* margin-left: 15px; */
+  }
+  .new1{
+      margin: 25px;
+
+  }
+  .new1-header{
+      color: gray;
+      font-size:x-large;
+      font-weight: bold;
+  }
+ .redirect-pages{
+     width: 500px;
+     float: left;
+     position: relative;
+     bottom:150px;
+     right:35px;
+ }
+  .redirect-pages a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+   
+  }
+  .redirect-pages li {
+    list-style-type: none;
+    margin: 10px;
+    border-top: 0.5px solid gainsboro;
+  }
+  .grid-item .menu-img{
+    width: 250px;
+    
+}
+.grid-item {
+    width: 200px;
+   margin: 20px;
+}
+
+
+  .important-news { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: footer; }
+
+  
